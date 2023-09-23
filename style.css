@@ -1,26 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 
 /*Reset and remove initial browsers styles */
-html, body {
+html,
+body {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: 'Merriweather', serif;
 }
 
-h1, h2, h3, h4, h5, h6, p, ul, ol {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol {
     margin: 0;
 }
 
-ul, ol {
+ul,
+ol {
     list-style: none;
 }
 
-footer, header, main, section {
+footer,
+header,
+main,
+section {
     position: relative;
     width: 100%;
 }
 
+/* Mobile styles goes here */
 
 /* Navbar styles goes here */
 
@@ -29,3 +43,16 @@ footer, header, main, section {
 /* introduction styles goes here */
 
 /* Footer styles goes here */
+
+/* Desktop styles goes here */
+@media screen and (min-width: 900px) {
+    /* Navbar styles goes here */
+
+    /* Hero styles goes here */
+
+    /* introduction styles goes here */
+
+    /* Footer styles goes here */
+
+    /* Desktop styles goes here */
+}
